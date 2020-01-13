@@ -14,7 +14,7 @@ public partial class frmFeedBack : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
 		int cnt = 1;
-		string s1 = "";
+		string s = "";
 		return;
     }
 }
