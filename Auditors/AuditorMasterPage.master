@@ -1,0 +1,68 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AuditorMasterPage.master.cs" Inherits="Auditors_AuditorMasterPage" %>
+<%@ Register Src="UserControls/LeftWebUserControl.ascx" TagName="LeftWebUserControl"
+    TagPrefix="uc2" %>
+<%@ Register Src="../UserControls/FooterUserControl.ascx" TagName="FooterUserControl"
+    TagPrefix="uc3" %>
+<%@ Register Src="UserControls/HeaderUserControl.ascx" TagName="HeaderUserControl"
+    TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+            <tr>
+                <td align="left" style="font-weight: bold; font-size: 24pt; color: #ccffff; font-family: 'Comic Sans MS';
+                    background-color: darkblue; text-align: left; height: 88px;" valign="top"><marquee style="width: 279px" direction="right" id="MARQUEE1">
+                    AQUA INDIA</marquee></td>
+                <td align="right" style="font-weight: bold; color: #ccffff; background-color: darkblue;" valign="top">
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Conditional">
+                        <ContentTemplate>
+                    <uc1:HeaderUserControl ID="HeaderUserControl1" runat="server" />
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                                      </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                </td>
+                <td valign="top">
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <uc2:LeftWebUserControl ID="LeftWebUserControl1" runat="server" />
+                  
+                </td>
+                <td valign="top">
+                    <br />
+                    <br />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 181px">
+                </td>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <uc3:FooterUserControl ID="FooterUserControl1" runat="server" />
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+    </div>
+    </form>
+</body>
+</html>

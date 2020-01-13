@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="AccrediationBodyBL">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\AccrediationBodyBL.cs</FileName>
+      <HashCode>AEAAAABAgAAAwAAAEAAAAQAAABAAQAAAAAACAAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuditFrequencyTypeBL">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\AuditFrequencyTypeBL.cs</FileName>
+      <HashCode>AEAAAAAAQAACAAAAAQAAAAAEAAAAAAAAARACAAGAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuditorInformationBL">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\AuditorInformationBL.cs</FileName>
+      <HashCode>8QAAQAgKGAGAIgAAgSAAIAYNAIEaBAyUCAgWpOEJAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuditorTypeBL">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\AuditorTypeBL.cs</FileName>
+      <HashCode>AAAAAAAKAAAAAAAgAIABAAAAAIAAAAAAAAACAAQAgCQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AuditTypeBL">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\AuditTypeBL.cs</FileName>
+      <HashCode>AQAAAAAAAAACIAQAACAAAAAAAAAAAABACAALAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CertificateTypeBL">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\CertificateTypeBL.cs</FileName>
+      <HashCode>AACAAAAAAAAAAASAEAAAAAAAAgAAAAAABkADAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommunicationTypeBL">
+    <Position X="18.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\CommunicationTypeBL.cs</FileName>
+      <HashCode>EAAAAoAAgAQACAAAAABAAAAAAEAEAAAAAAADAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Connection">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\Connection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnquiryBL">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\EnquiryBL.cs</FileName>
+      <HashCode>AAAEIAAQAAAAAJQAAAQAAAgECAAARIBAQhACTEAkQCQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnquiryCompanyBL">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\EnquiryCompanyBL.cs</FileName>
+      <HashCode>BP3A6AoyyqEMFEwoJAQsDCqiDk8oswDehIUCloDMQEg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FeedBacktypeBL">
+    <Position X="20.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\FeedBacktypeBL.cs</FileName>
+      <HashCode>AQAAAEkAAAAAIIgAAAAAAAAEAAAAAAABAAACSAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuotationBL">
+    <Position X="27" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\QuotationBL.cs</FileName>
+      <HashCode>gAADAABAAAASACQAIAAAGBAAAAAAIBRBABDLAEAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegistrationInfoBL">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\RegistrationInfoBL.cs</FileName>
+      <HashCode>AAAAkAAAABAwAAAIMAAgQAIAIUAAACEAAAAyAAADUIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserLoginBL">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerBL\UserLoginBL.cs</FileName>
+      <HashCode>AgAAAAAAAAAABAAGAAAAAgEAAAACAAAACwACCAkCAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityController.DAL.SqlHelper">
+    <Position X="28.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerDAL\SQLHelper.cs</FileName>
+      <HashCode>AACAAACAAAAAACAEABAAAEAAgAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="QualityController.DAL.SqlHelper.SqlConnectionOwnership">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\QualityControllerDAL\SQLHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="QualityController.DAL.SqlHelperParameterCache">
+    <Position X="30.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\QualityControllerDAL\SQLHelper.cs</FileName>
+      <HashCode>AEAAAAAAAECAAIAAAAAAAARAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>
